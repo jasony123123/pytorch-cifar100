@@ -221,3 +221,7 @@ def eval(weights, dataloader):
             top1.update(prec.item(), input.size(0))
     torch.cuda.empty_cache()
     return {"loss": losses.avg, "acc1": top1.avg}
+
+
+def saveStuff(obj, name):
+    torch.save(obj, name)
