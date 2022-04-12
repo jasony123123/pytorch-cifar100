@@ -1,3 +1,7 @@
+# Weights
+
+[./fedml-weights](https://drive.google.com/file/d/1qVIYey_fodUCTE-TyXkyCcOXqiaqHALp/view?usp=sharing)
+
 # Testing
 
 # Pytorch-cifar100
