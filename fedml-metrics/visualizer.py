@@ -5,8 +5,16 @@ names = [
          'fedml_fed1',
          'fedml_fed2',
          'fedml_fed3',
+         'fedml_fed51',
+         'fedml_fed52',
+         'fedml_fed61',
+         'fedml_fed62',
+         'fedml_fed71',
+         'fedml_fed72',
+         'fedml_classic',
          'fedml_syncSgdSmall'
 ]
+
 for name in names:
     metrics = torch.load('{}.metrics'.format(name))
     plt.plot([x['train_acc1'] for x in metrics], label='train_acc1')
